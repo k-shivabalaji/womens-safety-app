@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #fbe7e7;
+    padding: 20px;
+}
+
+h1 {
+    color: #d63384;
+}
+
+button {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#sosButton {
+    background-color: red;
+    color: white;
+}
+
+#callButton, #smsButton, #locationButton, #flashlightButton {
+    background-color: #ff69b4;
+    color: white;
+}
+
+#fakeCallButton, #alarmButton {
+    background-color: #ff4500;
+    color: white;
+}
+
+input {
+    display: block;
+    width: 80%;
+    margin: 5px auto;
+    padding: 8px;
+}
+
