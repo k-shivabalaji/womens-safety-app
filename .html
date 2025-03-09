@@ -1,0 +1,33 @@
+index.html
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women's Safety App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Women's Safety App</h1>
+
+    <button id="sosButton">SOS Emergency</button>
+    <button id="callButton">Emergency Call</button>
+    <button id="smsButton">Send Emergency SMS</button>
+    <button id="locationButton">Share Live Location</button>
+    <button id="fakeCallButton">Start Fake Call</button>
+    <button id="alarmButton">Activate Loud Alarm</button>
+    <button id="flashlightButton">Toggle Flashlight</button>
+
+    <h2>Emergency Contacts</h2>
+    <input type="text" id="contactName" placeholder="Contact Name">
+    <input type="text" id="contactNumber" placeholder="Phone Number">
+    <input type="number" id="priority" placeholder="Priority (1-5)">
+    <label><input type="checkbox" id="locationAccess"> Allow Location Access</label>
+    <button id="saveContact">Save Contact</button>
+
+    <h2>Customize Sounds</h2>
+    <label>Alarm Sound: <input type="file" id="alarmSound" accept="audio/*"></label>
+    <label>Fake Call Sound: <input type="file" id="fakeCallSound" accept="audio/*"></label>
+
+    <script src="script.js"></script>
+</body>
+</html>
